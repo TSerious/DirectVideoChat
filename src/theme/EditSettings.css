@@ -1,0 +1,78 @@
+.sc-ion-label-md-h{
+    margin-left: 8px!important;
+    margin-right: 6px;
+}
+
+.tipsButtonLabel{
+    width: 20px;
+    font-size: 12px!important;
+}
+
+.tipsButton {
+    --background: "rgba(0,0,0,0)";
+    --ripple-color: "rgba(0,0,0,0)";
+    --box-shadow: "none";
+    --background-activated: "rgba(0,0,0,0)";
+    --background-hover: #f0f0f0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.thickerHeaderTable{
+    width: 100%;
+}
+
+.thickerHeaderTableLabel{
+    width: 99%;
+}
+
+.thickerHeaderToggle{
+    padding-right: 8px;
+}
+
+.tipsThickerHeader{
+    margin-right: -5px!important;
+}
+
+.thickerHeaderSlider{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.thickerHeaderSliderColumn {
+    padding-right: 32px;
+}
+
+.versionItem{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.versionLabel{
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    color: var(--ion-color-medium);
+}
+
+.aboutButton{
+    --background: "rgba(0,0,0,0)";
+    --ripple-color: "rgba(0,0,0,0)";
+    --box-shadow: "none";
+    --background-activated: "rgba(0,0,0,0)";
+    --background-hover: #f0f0f0;
+    border: 2px #989aa2 solid;
+    border-radius: 8px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+

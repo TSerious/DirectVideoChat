@@ -1,0 +1,53 @@
+.welcome-card{
+    margin: 14px;
+    margin-bottom: 8px;
+}
+
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.tableLogoIcon {
+    font-size: 50px!important;
+}
+
+img.fadeInLong {
+  width: 100%;
+}
+
+.newsletterButton {
+  padding-top: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.newsletterButton > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.newsletterButton > div > label {
+  margin-top: 3px;
+  text-transform: none;
+  font-size: xx-small;
+}
+
+.newsletterButton > #alert {
+  position: absolute;
+  width: 35%;
+  height: 35%;
+  top: 0px;
+  transform: translate(10px , 0px);
+}
+
+#alert {
+  color: rgb(230, 0, 0);
+  z-index: 10;
+}

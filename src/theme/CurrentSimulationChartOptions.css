@@ -1,0 +1,60 @@
+.minMaxInput {
+    margin-left: 10px;
+    padding-left: 0.5em!important;
+    height: 2em;
+    --background: var(--ion-color-light);
+    border: 1px solid var(--ion-color-medium-light)
+}
+
+.minInput {
+    margin-left: 14px;
+}
+
+.maxInput {
+    margin-left: 10px;
+}
+
+.appSettingsGrid{
+    padding: 0px;
+    margin-top: 1em;
+}
+
+.appSettingsCol{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.appSettingsTitle{
+    padding: 0px;
+}
+
+.appSettingsFirstCol{
+    padding-left: 0px;
+    margin-top: 10px;
+    
+}
+
+.experimentSettingsWidthItem{
+    margin-top: 1.5em;
+    border-top-width: 3px;
+    border-top: solid;
+    border-color: var(--ion-color-primary);
+}
+
+.experimentSettingsWidthSlider{
+    border: none;
+    padding-left: 0px;
+    padding-right: 0.65em;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 55vw;
+}
+
+.experimentSettingsWidthSliderLabelDiv{
+    height: 2em;
+    
+    display:table-cell;
+    vertical-align:middle;
+}

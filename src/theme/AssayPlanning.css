@@ -1,0 +1,25 @@
+.assayDiv {
+    height: 100%;
+    overflow: hidden;    
+}
+
+.assayFrame {
+    height: 100%;
+    border: 0px;
+}
+
+.visitWikiInBrowserButton {
+    --box-shadow: 0;
+    --border-width: 1px;
+    --border-color: var(--ion-color-primary);
+    text-transform: none!important;
+    color: var(--ion-color-primary);
+    font-family: 'Univers'!important;
+    width: 100%;
+    /*
+    display: block;
+    width: fit-content;
+    position: absolute;
+    right: 20px;
+    */
+}

@@ -1,0 +1,21 @@
+.diluteUnitToggle {
+    --background: var(--ion-color-medium-light);
+    --background-checked: var(--ion-color-medium-light);
+    --handle-background: var(--ion-color-primary);
+    --handle-background-checked: var(--ion-color-primary);
+}
+
+.mCol{
+    text-align: right!important;
+}
+
+.mLabel{
+    justify-content: right !important;
+    align-items: right !important;
+    height: 100%;
+    width: 100%;
+}
+
+.gCol{
+    text-align: left;
+}

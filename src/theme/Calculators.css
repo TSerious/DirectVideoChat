@@ -1,0 +1,106 @@
+.selector{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 4px;
+    text-align: start;
+}
+
+.segmentButtonLabels{
+    font-size: 1em;
+    font-family: 'Univers'!important;
+}
+  
+.segmentButton{
+    --margin-top: 10px;
+    --background-checked: var(--ion-color-primary-shade);
+    --background-activated: var(--ion-color-primary-shade);
+    --color: var(--ion-color-primary-shade);
+    --color-checked: var(--ion-color-primary-shade);
+    --color-activated: var(--ion-color-primary-shade);
+    --indicator-color: var(--ion-color-primary-shade);
+    --indicator-color-checked: var(--ion-color-primary-shade);
+}
+  
+.sierraLogo{
+    font-size: 128px;
+}
+ 
+.sierraLogoSmall{
+    font-size: 48px;
+}
+  
+.itemDivider{
+    --color: rgb(0, 0, 0);
+    --background: var(--ion-color-primary-contrast);
+    --padding-top: 0px;
+    --inner-padding-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+  
+.itemDividerNoBorder{
+    --color: rgb(0, 0, 0);
+    --background: var(--ion-color-primary-contrast);
+    --padding-top: 0px;
+    --inner-padding-top: 0px;
+    border-width: 0px!important;
+}
+
+.noBottomMargin{
+    padding-bottom: 0px;
+}
+
+.stretch{
+    background-color: white;
+    height: 50px;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.parameterNameColumn{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parameterColumn{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.parameterUnitColumn{
+    margin: 0px;
+    padding: 0px;
+}
+
+.resultUnitColumn{
+    margin: 0px;
+    padding: 0px;
+}
+
+.value{
+    text-align: end;
+    margin: 0px;
+    margin-left: 3px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.resultSeperator{
+    background-color: #dedede;
+    margin: 0px;
+}
+
+.resultColumn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.switchColumn{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

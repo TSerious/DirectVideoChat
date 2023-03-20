@@ -1,0 +1,84 @@
+.labelLabel {
+  margin-top: -15px!important;
+  margin-left: 8px!important;
+  font-family: 'Univers'!important;
+  font-size: 16px!important;
+}
+
+.label {
+  margin-top: -10px;
+  margin-left: 16px!important;
+  font-family: 'Univers'!important;
+  color: var(--ion-color-primary);
+  font-size: 14px!important;
+}
+
+.modelSelector {
+  padding-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 16px;
+  font-family: 'Univers'!important;
+  color: black;
+  font-size: 16px!important;
+  padding-top: 0px!important;
+}
+
+.inputSimulator {
+  margin-left: 8px!important;
+  font-family: 'Univers'!important;
+  color: black;
+  font-size: 16px!important;
+  padding-top: 0px!important;
+}
+
+.inputSimulatorLast{
+  padding-bottom: 10px!important;
+}
+
+.sc-ion-select-popover-md.sc-ion-label-md-h{
+  margin-left: 8px;
+}
+
+.inputSimulator .native-input.sc-ion-input-md{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+
+
+.noiseValue{
+  margin-left: 0px;
+}
+
+.noiseColumn{
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+}
+
+.noiseRange{
+  padding-top: 0;
+}
+
+.modelLabel {
+  color: var(--ion-color-primary);
+  font-size: 14px!important;
+  margin-left: 16px!important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.99;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+    
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.1s;
+}
+  

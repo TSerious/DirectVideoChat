@@ -1,0 +1,88 @@
+.centerText {
+    display: flex;
+    justify-content: center!important;
+    text-align: center!important;
+    font-family: 'Univers'!important;
+}
+
+.centerIcon {
+    display: block;
+    position: relative;
+    left: 48%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.centerIconLarge{
+    display: block;
+    position: relative;
+    left: 46%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.iconButton {
+    margin-right: 10px ;
+}
+
+.tip {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 0em;
+}
+
+.experimentListItem{
+    --padding-start:0px;
+}
+
+.reorderBtn{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    margin-right: 10px;
+}
+
+.clearAllButton{
+    --padding-start:8px;
+    --border-radius:0px;
+    text-transform: none;
+    --box-shadow: none;
+    margin-left: 4px;
+}
+
+.simulationList{
+    padding-top: 0px;
+}
+
+.savedSimulationTitle{
+    position: relative;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-right: 10px;
+}
+
+.simulationSelectorTip{
+    font-size: 0.8em;
+}
+
+.tipSmall{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0.99;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.1s;
+}

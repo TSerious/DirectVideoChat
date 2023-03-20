@@ -1,0 +1,8 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="411.39401" height="63" viewBox="0 0 108.848 16.668802">
+    <path d="M 1.0058594,0 A 1.0001,1.0001 0 0 0 0.82421875,1.984375 L 54.224609,12.310548 a 1.0001,1.0001 0 0 0 0.378907,0 L 108.00391,1.984375 A 1.0001,1.0001 0 1 0 107.625,0.02148439 L 54.414062,10.310548 1.203125,0.02148439 A 1.0001,1.0001 0 0 0 1.0058594,0 Z">
+        <animateMotion dur="1.5s" repeatCount="indefinite">
+            <mpath xlink:href="#path" />
+        </animateMotion>
+    </path>
+    <path id="path" d="M 0,0 5.0005423e-7,3.400002 -1.7086542e-4,0" class="movePath" style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:0px;"/>
+</svg>

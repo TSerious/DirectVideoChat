@@ -1,0 +1,24 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0.99;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+  
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.1s;
+}
+
+.responsiveTextArea:focus{
+  border-width: 0px!important;
+  border-style: none!important;
+  outline: none;
+}
+
+.responsiveTextArea{
+  border-width: 0px!important;
+}

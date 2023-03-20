@@ -1,0 +1,189 @@
+.chartjs-render-monitor{
+    height: 100%!important;
+}
+
+
+
+
+
+.labelLabel {
+    margin-top: -20px;
+    margin-left: 0px;
+    font-family: 'Univers'!important;
+}
+
+.shortLabel {
+    font-family: 'Univers'!important;
+    margin-right: 5px;
+}
+
+.shortInput {
+    font-family: 'Univers'!important;
+    margin-left: 5px;
+}
+
+.shortInfoInput {
+    font-family: 'Univers'!important;
+    margin-left: -10px!important;
+}
+
+.modelSelect {
+    margin-top: -10px;
+}
+
+
+
+.flyoutButton {
+    margin-top: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.flyoutButton:hover {
+    cursor: pointer;
+}
+
+.settingsTableRow {
+    border-bottom: solid 1px;
+    border-bottom-color: var(--ion-color-medium-light);
+}
+
+
+
+.fadeIn {
+    animation: fadeIn 0.1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.99;
+    }
+  
+    to {
+        opacity: 1;
+    }
+}
+
+.tipsButton {
+    --background: "rgba(0,0,0,0)";
+    --ripple-color: "rgba(0,0,0,0)";
+    --box-shadow: "none";
+    --background-activated: "rgba(0,0,0,0)";
+    --background-hover: #f0f0f0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.tipsButtonLabel{
+    text-transform: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.resetZoomPanButton{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.infoLabel{
+    font-family: 'Univers'!important;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inputChart {
+    font-family: 'Univers'!important;
+    margin-left: 4px;
+}
+
+/*-------------------------------*/
+/* flyoutPanel                   */
+/*-------------------------------*/
+
+.flyOutPannelIn {
+    background: white;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.flyOutPannelInAnimated {
+    background: white;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    animation: flyOutPanel-InAnimation 0.5s forwards;
+    -webkit-animation: flyOutPanel-InAnimation 0.5s forwards;
+}
+
+.flyOutPannelOut {
+    background: white;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.flyOutPannelOutAnimated {
+    background: white;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    animation: flyOutPanel-OutAnimation 0.5s forwards;
+    -webkit-animation: flyOutPanel-OutAnimation 0.5s forwards;
+}
+
+@keyframes flyOutPanel-InAnimation {
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes flyOutPanel-InAnimation {
+    100% { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes flyOutPanel-OutAnimation {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes flyOutPanel-OutAnimation {
+    100% { -webkit-transform: translateX(0%); }
+}
+
+/*-------------------------------*/
+/* plotPanel                     */
+/*-------------------------------*/
+
+.plotPanelCrunched{
+    width: 50%;
+}
+
+.plotPanelExpanded{
+    width: 100%;
+}
+
+.plotPanelCrunch {
+    width: 100%;
+    animation: plotPanel-CrunchAnimation 0.5s forwards;
+}
+
+.plotPanelExpand {
+    width: 50%;
+    animation: plotPanel-ExpandAnimation 0.5s forwards;
+}
+
+@keyframes plotPanel-CrunchAnimation {
+    100% { width: 50%; }
+}
+
+@keyframes plotPanel-ExpandAnimation {
+    100% { width: 100%; }
+}
